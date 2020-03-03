@@ -6,9 +6,9 @@ replace github.com/jaguilar/vt100 => github.com/tonistiigi/vt100 v0.0.0-20190402
 
 require (
 	github.com/checkpoint-restore/go-criu v0.0.0-20191125063657-fcdcd07065c5
-	github.com/containerd/console v0.0.0-20181022165439-0650fd9eeb50
+	github.com/containerd/console v0.0.0-20191206165004-02ecf6a7291e
 	github.com/containerd/containerd v1.3.0-0.20190426060238-3a3f0aac8819
-	github.com/containerd/go-runc v0.0.0-20180907222934-5a6d9f37cfa3
+	github.com/containerd/go-runc v0.0.0-20200220073739-7016d3ce2328
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/cyphar/filepath-securejoin v0.2.2
@@ -40,6 +40,6 @@ require (
 	github.com/vishvananda/netlink v1.0.0
 	go.etcd.io/bbolt v1.3.2
 	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f
-	golang.org/x/sys v0.0.0-20190303122642-d455e41777fc
+	golang.org/x/sys v0.0.0-20191210023423-ac6580df4449
 	google.golang.org/grpc v1.15.0
 )

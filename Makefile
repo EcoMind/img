@@ -20,7 +20,7 @@ $(RUNCBUILDDIR):
 
 $(BUILDDIR)/bin/runc: $(RUNCBUILDDIR)
 	( cd $(RUNCBUILDDIR) ; git checkout $(RUNCCOMMIT) )
-	GOPATH=$(BUILDDIR) $(MAKE) -C "$(RUNCBUILDDIR)" static BUILDTAGS="seccomp apparmor"
+	GOPATH=$(BUILDDIR) GO111MODULE=on $(MAKE) -C "$(RUNCBUILDDIR)" static BUILDTAGS="seccomp apparmor"
 	mkdir -p $(BUILDDIR)/bin
 	mv $(RUNCBUILDDIR)/runc $(BUILDDIR)/bin/runc
 
