@@ -16,19 +16,19 @@ before_install:
   - go get -u github.com/go-bindata/go-bindata/...
 jobs:
   include:
-    - script: make all
+    - script: make PKG=github.com/twz123/img all
     - stage: Run Test Coverage
       script: make cover
       after_success: bash <(curl -s https://codecov.io/bash)
     - stage: Run e2e Tests
       script:
-        - make install
+        - make PKG=github.com/twz123/img install
         - ./contrib/e2e-dockerfiles-build-test.sh
       env:
         - STATE_DIR=$HOME/img
     - stage: Build Release
       script:
-        - make release
+        - make PKG=github.com/twz123/img release
       before_deploy:
         - echo "Deploying to GitHub releases ..."
       deploy:
