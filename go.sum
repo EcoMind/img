@@ -93,8 +93,8 @@ github.com/denverdino/aliyungo v0.0.0-20190125010748-a747050bb1ba/go.mod h1:dV8l
 github.com/dgrijalva/jwt-go v0.0.0-20170104182250-a601269ab70c/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/dnaeon/go-vcr v1.0.1/go.mod h1:aBB1+wY4s93YsC3HHjMBMrwTj2R9FHDzUr9KyGc8n1E=
 github.com/docker/cli v0.0.0-20180920165730-54c19e67f69c/go.mod h1:JLrzqnKDaYBop7H2jaqPtU4hHvMKP+vjCwu2uszcLI8=
-github.com/docker/cli v0.0.0-20211117234946-dea9396e1842 h1:bjsfAvm8BVtvQFxV7TYznmKa35J8+fmgrRJWvcS3yJo=
-github.com/docker/cli v0.0.0-20211117234946-dea9396e1842/go.mod h1:JLrzqnKDaYBop7H2jaqPtU4hHvMKP+vjCwu2uszcLI8=
+github.com/docker/cli v20.10.11+incompatible h1:tXU1ezXcruZQRrMP8RN2z9N91h+6egZTS1gsPsKantc=
+github.com/docker/cli v20.10.11+incompatible/go.mod h1:JLrzqnKDaYBop7H2jaqPtU4hHvMKP+vjCwu2uszcLI8=
 github.com/docker/distribution v0.0.0-20180920194744-16128bbac47f/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
 github.com/docker/distribution v0.0.0-20200223014041-6b972e50feee/go.mod h1:xgJxuOjyp98AvnpRTR1+lGOqQ493ylRnRPmewD5GWtc=
 github.com/docker/distribution v2.7.1-0.20190205005809-0d3efadf0154+incompatible h1:dvc1KSkIYTVjZgHf/CTC2diTYC8PzhaA5sFISRfNVrE=
