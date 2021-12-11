@@ -3,7 +3,7 @@ module github.com/containerd/ttrpc
 go 1.13
 
 require (
-	github.com/gogo/protobuf v1.3.1
+	github.com/gogo/protobuf v1.3.2
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.0.0-20190522114515-bc1a522cf7b1
